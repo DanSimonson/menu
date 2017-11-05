@@ -10,3 +10,15 @@ body {
     margin-bottom: 10px !important;
     /*position: absolute;*/
 }
+.carousel-caption {
+  color: #D5D5D5;*/
+  font-weight: 600;
+  font-family: serif;
+  font-style: normal;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5));
+}
+.carousel-caption p {
+  font-size: 170%;
+}
