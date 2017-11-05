@@ -1,8 +1,12 @@
 
-a {
-  padding-left: 20px;
 
+body {
+  background-color: #ca4023;
 }
 .fa-home:hover {
   text-decoration: none;
+}
+.navbar{
+    margin-bottom: 10px !important;
+    /*position: absolute;*/
 }
