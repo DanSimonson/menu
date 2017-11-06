@@ -3,6 +3,9 @@
 body {
   background-color: #ca4023;
 }
+.row h3, p {
+  color: #D5D5D5;
+}
 .fa-home:hover {
   text-decoration: none;
 }
@@ -21,4 +24,10 @@ body {
 }
 .carousel-caption p {
   font-size: 170%;
+}
+.hideMe {
+  display: none;
+}
+.showMe {
+  display:inline-block;
 }
