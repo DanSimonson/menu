@@ -31,3 +31,8 @@ body {
 .showMe {
   display:inline-block;
 }
+@media (max-width: 600px) {
+  .carousel-caption{
+    display:none;
+  }
+}
