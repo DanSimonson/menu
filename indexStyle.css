@@ -3,6 +3,9 @@
 body {
   background-color: #ca4023;
 }
+h1, h2, h3, h4, p {
+  font-family: 'Noto Sans', sans-serif;
+}
 .row h3, p {
   color: #D5D5D5;
 }
@@ -25,11 +28,14 @@ body {
 .carousel-caption p {
   font-size: 170%;
 }
-.hideMe {
-  display: none;
+
+nav.nav {
+  transition: background-color 2s;
 }
-.showMe {
-  display:inline-block;
+a.nav-link:hover {
+  color: #61cf94;
+  background-color: #61cf94;
+  transition: background-color 1s;
 }
 @media (max-width: 600px) {
   .carousel-caption{
