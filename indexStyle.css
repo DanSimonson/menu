@@ -3,7 +3,7 @@
 body {
   background-color: #ca4023;
 }
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a{
   font-family: 'Noto Sans', sans-serif;
 }
 .row h3, p {
@@ -14,8 +14,8 @@ h1, h2, h3, h4, p {
   text-decoration: none;
 }
 .navbar{
-    margin-bottom: 10px !important;
-    /*position: absolute;*/
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px !important;
 }
 .carousel-caption {
   color: #D5D5D5;*/
